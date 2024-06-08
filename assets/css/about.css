@@ -1,0 +1,74 @@
+/* ======= ABOUT ======= */
+.about {
+    background-color: var(--container-color);
+}
+
+.about__container {
+    grid-template-columns: 5fr 7fr;
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about__img {
+    border-radius: var(--radius);
+}
+
+.about__description {
+    margin-bottom: 2rem;
+    text-wrap: balance;
+}
+
+.tabs__btns {
+    display: flex;
+    column-gap: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.tabs__btn,
+.tabs__description span:first-child {
+    font-weight: var(--weight-500);
+}
+
+.tabs__btn {
+    cursor: pointer;
+    color: var(--title-color);
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.tabs__btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--text-color);
+    transition: all 0.3s var(--transition);
+}
+
+.tabs__data {
+    row-gap: 1rem;
+}
+
+.tabs__description span:last-child {
+    display: block;
+}
+
+/* ======= Active tab ======= */
+.tabs__btn.tab__active {
+    color: var(--first-color);
+}
+
+.tabs__btn.tab__active::after {
+    background-color: var(--first-color);
+    width: 100%;
+}
+
+.tabs__item[data-content] {
+    display: none;
+}
+
+.tab__active[data-content] {
+    display: block;
+}

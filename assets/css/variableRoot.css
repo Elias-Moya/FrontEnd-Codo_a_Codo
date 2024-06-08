@@ -1,0 +1,58 @@
+/* ======= GOOGLE FONTS ======= */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ======= VARIABLES CSS ======= */
+:root {
+    --header-height: 6rem;
+    /* ======= Colors ======= */
+    /* color Hexadecimal */
+    --first-color: #00b4d8;
+    --title-color: #ffffff;
+    --text-color: #c4c4c4;
+    --body-color: #0f0f0f;
+    --container-color: #1a1a1a;
+    --border-color: #ffffff33;
+
+    /* ======= Font and typography ======= */
+    /* .5rem = 8px | 1rem 16px ...*/
+    --body-font: 'Poppins', sans-serif;
+    --second-font: 'Montserrat', sans-serif;
+
+    --big-font-size: clamp(2rem, 0.9706rem + 4.7059vw, 4.5rem);
+    --h1-font-size: clamp(1.75rem, 0.9265rem + 3.7647vw, 3.75rem);
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.5rem;
+    --normal-font-size: 1.125rem;
+    --small-font-size: 1rem;
+    --smaller-font-size: 0.875rem;
+
+    /* ======= Font wight ======= */
+    --weight-300: 300;
+    --weight-400: 400;
+    --weight-500: 500;
+    --weight-600: 600;
+    --weight-700: 700;
+    --weight-900: 900;
+
+    /* ======= Transition ======= */
+    --transition: cubic-bezier(0.05, 0.2, 0.1, 1);
+    /* ======= Border Radius ======= */
+    --radius: 0.5rem;
+
+    /* ======= z index ======= */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/* ======= Responsive typography ======= */
+
+@media screen and (max-width:992px) {
+    :root {
+        --header-height: 5rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.9375rem;
+        --smaller-font-size: 0.813rem;
+    }
+}

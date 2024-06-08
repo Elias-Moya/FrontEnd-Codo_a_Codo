@@ -1,0 +1,39 @@
+/* ====== CSS VARIABLES ====== */
+@import url('./variableRoot.css');
+
+/* ====== CSS COMMON ====== */
+@import url('./common.css');
+
+/* ====== HEADER ====== */
+@import url('./header.css');
+
+/* ====== HOME ====== */
+@import url('./home.css');
+
+/* ====== ABOUT ====== */
+@import url('./about.css');
+
+/* ====== SERVICES ====== */
+@import url('./services.css');
+
+/* ====== PORTFOLIO ====== */
+@import url('./portfolio.css');
+
+/* ====== CONTACT ====== */
+@import url('./contact.css');
+
+/* ====== FOOTER ====== */
+@import url('./footer.css');
+
+/* ====== SCROLL UP ====== */
+@import url('./scrollUp.css');
+
+/* ====== BREAKPOINTS ====== */
+@import url('./breakpoints.css');
+
+
+
+/* ------------------------- */
+/* @import url('./variables.css'); */
+/* @import url('./fonts.css'); */
+/* @import url('./normalize.css'); */

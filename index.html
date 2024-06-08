@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- ======= UNICONS ======= -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- ======= font-awesome ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ======= FAVICON ======= -->
+    <link rel="shortcut icon" href="./assets/img/favicon-16x16.png" type="image/x-icon">
+
+    <!-- ======= CSS ======= -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <!-- TITLE -->
+    <title>Portfolio Personal</title>
+</head>
+
+<body>
+    <!-- ======= HEADER ======= -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="./index.html" class="nav__logo">Front<span>Fusion</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Inicio</a></li>
+                    <li><a href="#about" class="nav__link">Sobre mí</a></li>
+                    <li><a href="#services" class="nav__link">Servicios</a></li>
+                    <li><a href="#porfolio" class="nav__link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="uil uil-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__social">
+                <a class="nav__social-link" href="https://www.facebook.com/" target="_blank" rel="no-referrer">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a class="nav__social-link" href="https://twitter.com/" target="_blank" rel="no-referrer">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a class="nav__social-link" href="https://ar.linkedin.com/" target="_blank" rel="no-referrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a class="nav__social-link" href="https://www.instagram.com/" target="_blank" rel="no-referrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+            <div class="nav__btns">
+                <a href="#contact" class="nav__link-btn btn">✉️</a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ======= MAIN ======= -->
+    <main class="main">
+        <!-- ======= HOME ======= -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Bienvenidos</span>
+                    <h1 class="home__title">
+                        Hola, Soy Thanos <span>FULL STACK DEVELOPER</span>
+                    </h1>
+                </div>
+                <img src="./assets/img/ImagenThanos.jpg" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!-- ======= ABOUT ======= -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <img src="./assets/img/ImagenThanos.jpg" alt="" class="about__img">
+                <div class="about__content">
+                    <h2 class="section__title">Sobre Mí</h2>
+                    <p class="about__description">
+                        Soy un <strong>Desarrollador Full Stack </strong> especializado en Python, con
+                        experiencia tanto
+                        en el
+                        Frontend como en el Backend. Con habilidades en frameworks como Django y Flask, junto con
+                        sólidos conocimientos en HTML, CSS y JavaScript, estoy listo para enfrentar cualquier desafío de
+                        desarrollo web que se presente.
+                    </p>
+                    <div class="tabs__btns">
+                        <span class="tabs__btn tab__active" data-target="#skills">Habilidades</span>
+                        <span class="tabs__btn" data-target="#award">Experiencia </span>
+                        <span class="tabs__btn" data-target="#experience">Educación</span>
+                        <span class="tabs__btn" data-target="#education">Certificados</span>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="tabs__item tab__active" data-content id="skills">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Lenguajes de Programación</span>
+                                    <span>Python | JavaScript</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Backend - Frontend </span>
+                                    <span>Django | Flask - HTML | CSS </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Base de Datos</span>
+                                    <span>MySQL | SQLite</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Control de Versiones</span>
+                                    <span>Git | GitHub/GitLab</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="award">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Empresa JKL</span> - Desarrollador Backend
+                                    <span>Marzo 2021 - Mayo 2022</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Empresa GHI </span> - Desarrollador Frontend
+                                    <span>Junio 2020 - Enero 2021</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Freelancer</span> - Desarrollador Full Stack
+                                    <span>Enero 2020 - Mayo 2020</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Freelancer</span> - Desarrollador Frontend
+                                    <span>Agosto 2019 - Diciembre 2019</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="experience">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Desarrollador Back-End</span> - IBM
+                                    <span>2019 - 2020</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Desarrollador Back-End</span> - Meta
+                                    <span>2019 -2020</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Desarrollador Front-End</span> - Meta
+                                    <span>2018 - 2019</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Desarrollador Front-End</span> - IBM
+                                    <span>2018 - 2019</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="education">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Certificado Profesional Back-End IBM</span> - Coursera
+                                    <span>2019</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Certificado Profesional Front-End IBM</span> - Coursera
+                                    <span>2018</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Certificado Profesional Back-End Meta</span> - Coursera
+                                    <span>2019</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Certificado Profesional Front-End Meta</span> - Coursera
+                                    <span>2018</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= SERVICES ======= -->
+        <section class="services section" id="services">
+            <h2 class="section__title">Servicios</h2>
+            <p class="section__description">
+                ¡Explora Mis Servicios! Como Desarrollador Full-Stack, estoy comprometido a ofrecerte
+                soluciones
+                digitales excepcionales para alcanzar tus objetivos en línea.
+            </p>
+
+            <div class="services__container container grid">
+                <!-- carta n°1 -->
+                <div class="services___item">
+                    <i class="fa-solid fa-desktop services__icon"></i>
+                    <h3 class="services__title">Aplicaciones Web Dinámicas</h3>
+                    <p class="services__description">
+                        Creo aplicaciones web dinámicas con Django y Flask, incluyendo autenticación, paneles de
+                        administración y gestión de contenido, adaptadas a sus necesidades.
+                    </p>
+                </div>
+
+                <!-- carta n°2 -->
+                <div class="services___item">
+                    <i class="fa-regular fa-user services__icon"></i>
+                    <h3 class="services__title">Interfaces de Usuario Interactivas</h3>
+                    <p class="services__description">
+                        Creo interfaces de usuario interactivas y responsivas usando HTML, CSS, JS y frameworks como
+                        React o Vue. Desarrollo de componentes reutilizables, integración con backend y mejora de la
+                        experiencia del usuario.
+                    </p>
+                </div>
+
+                <!-- carta n°3 -->
+                <div class="services___item">
+                    <i class="fa-solid fa-layer-group services__icon"></i>
+                    <h3 class="services__title">Optimización y Mejora de Rendimiento</h3>
+                    <p class="services__description">
+                        Optimizo y mejoro rendimiento de sitios web existentes. Incluye optimización de imágenes,
+                        minificación de CSS/JS, caching, y reducción de tiempo de carga de página.
+                    </p>
+                </div>
+
+                <!-- carta n°4 -->
+                <div class="services___item">
+                    <i class="fa-solid fa-code services__icon"></i>
+                    <h3 class="services__title">Mantenimiento y Refactorización de Código</h3>
+                    <p class="services__description">
+                        Proporciono servicios de mantenimiento y refactorización de código para mejorar la legibilidad,
+                        eficiencia y escalabilidad del código existente. Esto incluye limpieza de código,
+                        reestructuración de proyectos, mejora de la organización y aplicación de mejores prácticas de
+                        programación.
+                    </p>
+                </div>
+
+                <!-- carta n°5 -->
+                <div class="services___item">
+                    <i class="fa-regular fa-rectangle-list services__icon"></i>
+                    <h3 class="services__title">Creación de Formularios Interactivos</h3>
+                    <p class="services__description">
+                        Creamos formularios interactivos personalizados y eficaces para su sitio web, incluyendo
+                        formularios de contacto, registro, encuestas y más. Además, garantizamos la validación y
+                        seguridad de formularios para una mejor experiencia de usuario.
+                    </p>
+                </div>
+
+                <!-- carta n°6 -->
+                <div class="services___item">
+                    <i class="fa-regular fa-circle-user services__icon"></i>
+                    <h3 class="services__title">Integración de Servicios de Autenticación Social</h3>
+                    <p class="services__description">
+                        Integramos fácilmente la autenticación social en su aplicación web, permitiendo a los usuarios
+                        registrarse e iniciar sesión utilizando sus cuentas de redes sociales como Google, Facebook y
+                        Twitter. Esto mejora la experiencia del usuario y simplifica el proceso de registro.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ======= PORTFOLIO ======= -->
+        <section class="porfolio section" id="porfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <p class="section__description">
+                Echa un vistazo a lo que hemos logrado hasta ahora. <br>Nuestros proyectos hablan por sí mismo.
+            </p>
+            <div class="portfolio__container container grid">
+                <div class="portfolio__item">
+                    <img src="./assets/img/portfolio-img1.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">NFTs</p>
+                        <h3 class="portfolio__title">Web Personal</h3>
+                        <p class="portfolio__description">
+                            Compra, venta y colección de tokens no fungibles
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="./assets/img/portfolio-img2.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Consultoría</p>
+                        <h3 class="portfolio__title">Web de Asesoramiento</h3>
+                        <p class="portfolio__description">
+                            Asesoramiento especializado en desarrollo frontend.
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="./assets/img/portfolio-img3.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Gaming</p>
+                        <h3 class="portfolio__title">Tienda en Línea</h3>
+                        <p class="portfolio__description">
+                            Venta de los últimos videojuegos y accesorios
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="./assets/img/portfolio-img4.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Blog</p>
+                        <h3 class="portfolio__title">Blog en Línea</h3>
+                        <p class="portfolio__description">
+                            Publicación de artículos y contenido multimedia
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="./assets/img/portfolio-img5.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">E-commerce</p>
+                        <h3 class="portfolio__title">Tienda en Línea</h3>
+                        <p class="portfolio__description">
+                            Soluciones completas para ventas y gestión de inventario en línea
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="./assets/img/portfolio-img6.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Fotografía</p>
+                        <h3 class="portfolio__title">Galería de Fotos</h3>
+                        <p class="portfolio__description">
+                            Exposición y gestión de imágenes de alta calidad
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= CONTACT ======= -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h2 class="section__title">Contacto</h2>
+                    <p class="contact__description">
+                        ¡Gracias por visitar! Estoy disponible para cualquier consulta que puedas tener.
+                        <!-- Connect with me via phone:
+                        <a href="tel:+01912-123456">01912-123456</a> or email:
+                        <a href="mailto:admin@example.com">admin@example.com</a> -->
+                    </p>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-input">
+                            <input type="text" name="name" placeholder="Nombre" class="contact__input"
+                                id="contact-name">
+                        </div>
+
+                        <div class="contact__form-input">
+                            <input type="email" name="email" placeholder="E-mail" class="contact__input"
+                                id="contact-email">
+                        </div>
+
+                        <div class="contact__form-input">
+                            <input type="text" name="subject" placeholder="Asunto" class="contact__input"
+                                id="contact-subject">
+                        </div>
+
+                        <div class="contact__form-input">
+                            <textarea name="message" id="contact-message" class="contact__input textarea"
+                                placeholder="Mensaje"></textarea>
+                        </div>
+
+                        <input type="submit" value="Enviar" class="btn">
+                        <p class="error__message" id="error-message"></p>
+                    </form>
+                </div>
+
+                <img src="./assets/img/ImagenThanos.jpg" alt="" class="contact__img">
+            </div>
+        </section>
+    </main>
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <a href="./index.html" class="footer__logo">Front<span>Fusion</span></a>
+
+            <div class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link" rel="no-referrer">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="https://twitter.com/" target="_blank" class="footer__social-link" rel="no-referrer">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="https://ar.linkedin.com/" target="_blank" class="footer__social-link" rel="no-referrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link" rel="no-referrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+            <p class="footer__copyright">Copyright © 2024 | Todos los derechos reservados ❤️</p>
+        </div>
+    </footer>
+
+    <!-- ======= SCROLL UP ======= -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!-- ======= EMAIL JS ======= -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- ======= MAIN JS ======= -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
